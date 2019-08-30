@@ -2,6 +2,7 @@
 
 There are two CSV files under the data directory: gab.csv and reddit.csv, containing the data collected from Gab and Reddit together with the crowd-sourced labels separately.
 Two data files have the same data structure:
+
 |Field|Description|
 |-------|-------------|
 |id|the ids of the post in a conversation segment|
