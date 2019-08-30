@@ -1,6 +1,9 @@
 # A Benchmark Dataset for Learning to Intervene in Online Hate Speech
 
-There are two CSV files under the data directory: gab.csv and reddit.csv, containing the data collected from Gab and Reddit together with the crowd-sourced labels separately.
+In order to encourage strategies of countering online hate speech, we introduce a novel task of generative hate speech intervention along with two fully-labeled datasets collected from Gab and Reddit. Distinct from existing hate speech datasets, our datasets retain their conversational context and introduce human-written intervention responses. Due to our data collecting strategy, all the posts in our datasets are manually labeled as hate or non-hate speech by Mechanical Turk workers, so they can also be used for the hate speech detection task.
+
+There are two CSV files under the data directory: gab.csv and reddit.csv, These datasets provide conversation segments, hate speech labels, as well as intervention responses written by  Mechanical Turk workers.
+
 Two data files have the same data structure:
 
 |Field|Description|
