@@ -9,10 +9,13 @@ Two data files have the same data structure:
 |Field|Description|
 |-------|-------------|
 |id|the ids of the post in a conversation segment|
+|text|the text of the posts in a conversation segment|
 |hate_speech_idx|a list of the indexes of the hateful posts in this conversation|
 |response|a list of human-written responses|
 
 Please refer to the paper "A Benchmark Dataset for Learning to Intervene in Online Hate Speech" (EMNLP 2019) for the detailed information about the dataset.
 
 # Data Processing
-The code for parsing the data will be released soon.
+Other meta data of the Reddit post can be retrieved using Reddit API and the ids of the posts. 
+
+Other meta data of the Gab post can be retrieved from the dataset https://files.pushshift.io/gab/GABPOSTS_2018-10.xz using the ids of the posts.
