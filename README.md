@@ -19,3 +19,6 @@ Please refer to the paper "A Benchmark Dataset for Learning to Intervene in Onli
 Other meta data of the Reddit post can be retrieved using Reddit API and the ids of the posts. 
 
 Other meta data of the Gab post can be retrieved from the dataset https://files.pushshift.io/gab/GABPOSTS_2018-10.xz using the ids of the posts.
+
+# License
+The dataset is licensed under the Creative Commons Attribution-NonCommercial 4.0 International Public License. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA. 
